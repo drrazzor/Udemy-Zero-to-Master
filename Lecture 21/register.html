@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+	<a href="index.html">Homepage</a>	&nbsp
+	<a href="apple.html">Apple</a>	&nbsp
+	<a href="banana.html">Bananas</a>	&nbsp
+	<a href="orange.html">Oranges</a>	&nbsp
+	<a href="register.html">Register</a>	&nbsp
+	<h1>Registration Form</h1>
+
+	<!-- Use POST and NOT GET -->
+	<div>
+		<!-- BLOCK ELEMENT - WRAP the data within DIV -->
+	</div>
+	<span>
+		<!-- Similar to DIV, but its an INLINE ELEMENT -->
+	</span>
+	
+
+	<form method="POST">
+		First Name: <input type="text" name="firstname"><br>
+		Last Name:  <input type="text" name="lastname"><br>
+		Email: 		<input type="email" required name="email"><br>
+		Password:	<input type="password" minlength="5" name="password"><br>
+		Birthday 	<input type="date" name="birthday"> <br>
+		Phone: 		<input type="number" name="phone"><br>
+ 		Gender: <br>
+		<input type="radio" name="Gender">Male<br>
+		<input type="radio" name="Gender">Female<br>
+		<input type="radio" name="Gender">Other<br> 
+
+		Pets: <br>
+		<input type="checkbox" name="Pets">Cat<br>
+		<input type="checkbox" name="Pets">Dog<br>
+		<input type="checkbox" name="Pets">Hamster<br>
+
+		Cars: <br>
+		<select>
+			<option value="Volvo" name="volvo">Volvo</option>
+			<option value="Audi" name="audi">Audi</option>
+			<option value="Mercedes" name="mercedes">Mercedes</option>
+		</select> <br>
+
+		<input type="submit" value="Register" name="register"> &nbsp
+		<input type="reset" value="Clear Form" name="register">
+	</form>
+</body>
+</html>

@@ -1,0 +1,71 @@
+body {
+	text-align: center;
+	margin: 0px;
+	background-image: url(bk-coffeePage.jpg);
+	background-size: 1920px 1080px;
+	background-repeat: no-repeat;
+	background-color: #595C60;
+}
+
+#menu-title-arrow{
+	opacity: 0.9
+};
+
+#menus{
+	margin-top: 10px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.menu {
+	color: white;
+	font-size: 48px;
+	text-decoration: none;
+	padding: 10px;
+	transition: all 1s;
+}
+
+.menu:hover {
+	color: sandybrown;
+}
+
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img {
+	height:500px;
+	width:750px;
+	margin:10px;
+	transition: all 0.5s;
+}
+
+img:hover{
+	transform: scale(1.2);
+}
+
+ul {
+	list-style-type: none;
+}
+
+h1{
+	color: white;
+	font-size: 240px;
+	margin-top: 200px;
+	margin-bottom: 200px;
+	font-family: 'Pacifico', cursive;
+	font-weight: 100;
+}
+
+
+
+#coffee-types{
+	font-family: 'Lobster', cursive;
+	font-weight: 500;
+	font-size: 48px;
+	margin-top: 200px;
+	color: sandybrown;
+}
+

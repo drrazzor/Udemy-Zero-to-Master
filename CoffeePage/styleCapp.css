@@ -1,0 +1,39 @@
+body{
+	margin: 0px;
+	background-image: url(https://www.nespresso.com/ncp/res/uploads/recipes/Nespresso_MakeFilms_Stills_Cappuccino.jpg);
+	background-size: 1920px 1080px;
+}
+
+#MenuSide-title-content{
+	height: 500px;
+	width: 400px;
+}
+
+.menus-capp{
+}
+
+.menu-list{
+	list-style-type: none;
+	margin-top: 100px;	
+
+}
+
+.menu{
+	color: white;
+	font-size: 48px;
+	text-decoration: none;
+	transition: 0.5s;
+	padding: 20px 0px 20px 0px;
+	margin-right: 0px;
+}
+
+.menu:hover{
+	color: #FF831C;
+}
+
+.coffee-title{
+	text-align: center;
+	color: white;
+	margin: 10px;
+
+}

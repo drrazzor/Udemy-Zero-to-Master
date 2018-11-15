@@ -2,41 +2,60 @@
 <html>
 <head>
 	<title>Coffee</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto+Condensed|Lobster" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
-	<div id=menu-title-arrow>
-		<div id="menus">
-			<ul>
-				<li><a href="index.html" class="menu">CoffeePage</a></li>
-				<li><a href="cappuccino.html" class="menu">Cappuccino</a></li>
-				<li><a href="americano.html" class="menu">Americano</a></li>
-				<li><a href="espresso.html" class="menu">Espresso</a></li>
-				<li><a href="macchiato.html" class="menu">Macchiato</a></li>
-				<li><a href="mocha.html" class="menu">Mocha</a></li>
-				<li><a href="latte.html" class="menu">Latte</a></li>
-				<li><a href="contact.html" class="menu">Contact</a></li>		
-			</ul>
-		</div>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+	  <a class="navbar-brand" href="index.html" >CoffeePage</a>
+
+	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto mx-auto">
+	      <li class="nav-item active">
+		     <a class="navbar-brand" href="cappuccino.html">Cappuccino</a>
+		     <a class="navbar-brand" href="americano.html">Americano</a>
+		     <a class="navbar-brand" href="espresso.html">Espresso</a>
+			 <a class="navbar-brand" href="macchiato.html">Macchiato</a>
+			 <a class="navbar-brand" href="mocha.html">Mocha</a>
+			 <a class="navbar-brand" href="latte.html">Latte</a>
+			 <a class="navbar-brand" href="contact.html">Contact</a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
+
+	<div id="menu-title-arrow">
 		<div>
 			<h1>Coffee Page</h1>
 		</div>
-		<div id=down-arrow>
+		<div id="down-arrow">
 			<i class="fas fa-arrow-circle-down fa-3x" style="color: white"></i>
 		</div>
 	</div>
-	<div id="coffee-types">
+
+
+ 	<div id="coffee-types">
 		<h2> Types of Coffee </h2>
 	</div>
-	<div class="container">	
-		<img src="https://www.nespresso.com/ncp/res/uploads/recipes/Nespresso_MakeFilms_Stills_Cappuccino.jpg" alt="Cappuccino Photo">
-		<img src="https://farm4.staticflickr.com/3292/2819582675_01ef305d20_o.jpg" alt="Americano Photo">
-		<img src="https://scitechdaily.com/images/perfect-shot-of-espresso.jpg" alt="Espresso Photo">
-		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Macchiato_FourBarrel.jpg/800px-Macchiato_FourBarrel.jpg" alt="Macchiato Photo">
-		<img src="https://joaniesimon.com/wp-content/uploads/2016/01/homemade-mocha-e1452548176858.jpg" alt="Mocha Photo">
-		<img src="https://milklife.com/sites/default/files/styles/recipe_zoomable_images_large/public/main_image/Recipe/2013/09/18/Protein-Packed%20Latte_square.jpg?itok=vwVtOEyA" alt="Late Photo">
+	<div class="container">
+			<img src="https://www.nespresso.com/ncp/res/uploads/recipes/Nespresso_MakeFilms_Stills_Cappuccino.jpg" alt="Cappuccino Photo">
+			<img src="https://farm4.staticflickr.com/3292/2819582675_01ef305d20_o.jpg" alt="Americano Photo">
+			<img src="https://scitechdaily.com/images/perfect-shot-of-espresso.jpg" alt="Espresso Photo">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Macchiato_FourBarrel.jpg/800px-Macchiato_FourBarrel.jpg" alt="Macchiato Photo">
+			<img src="https://joaniesimon.com/wp-content/uploads/2016/01/homemade-mocha-e1452548176858.jpg" alt="Mocha Photo">
+			<img src="https://milklife.com/sites/default/files/styles/recipe_zoomable_images_large/public/main_image/Recipe/2013/09/18/Protein-Packed%20Latte_square.jpg?itok=vwVtOEyA" alt="Late Photo">
 	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -7,9 +7,11 @@ body {
 	background-color: #595C60;
 }
 
+
 #menu-title-arrow{
-	opacity: 0.9
-};
+	opacity: 0.9;
+	margin-top: 200px;
+}
 
 #menus{
 	margin-top: 10px;
@@ -29,23 +31,14 @@ body {
 }
 
 .container{
-	display: flex;
+	display: inline-flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
-ul{
-	list-style-type: none;
-	margin: 0;
-	padding-top: 0;
-	background-color: black;
-	display: flex;
-	justify-content: center;
-}
-
 img {
-	height:500px;
-	width:750px;
+	height:300px;
+	width:500px;
 	margin:10px;
 	transition: all 0.5s;
 }
@@ -72,8 +65,12 @@ h1{
 #coffee-types{
 	font-family: 'Lobster', cursive;
 	font-weight: 500;
-	font-size: 48px;
-	margin-top: 200px;
+	font-size: 64px;
+	margin-top: 400px;
 	color: sandybrown;
 }
 
+
+#down-arrow{
+	margin-top: 200px;
+}
